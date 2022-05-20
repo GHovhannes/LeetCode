@@ -8,13 +8,9 @@ var checkRecord = function(s) {
         if(s[i] == "L"&&s[i+1] == "L" && s[i+2] == "L"){
             return false;
         }
-    }
         if(abs>=2){
             return false;
         }
-        else {
+    }
             return true;
-        }
-        
-    
 };
