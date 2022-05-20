@@ -9,7 +9,6 @@ var checkRecord = function(s) {
             late++;
         }
     }
-    for(let i = 0;i<s.length; i++){
         if(abs>=2 || late>=1){
             return false;
         }
@@ -17,5 +16,5 @@ var checkRecord = function(s) {
             return true;
         }
         
-    }
+    
 };
