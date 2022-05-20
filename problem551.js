@@ -6,10 +6,10 @@ var checkRecord = function(s) {
             abs++;
         }
         if(s[i] == "L"&&s[i+1] == "L" && s[i+2] == "L"){
-            late++;
+            return false;
         }
     }
-        if(abs>=2 || late>=1){
+        if(abs>=2){
             return false;
         }
         else {
